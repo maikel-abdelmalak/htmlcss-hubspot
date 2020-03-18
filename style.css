@@ -21,19 +21,26 @@
     clear: both;
 }
 
+.text{
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 100;
+    padding-right: 10px;
+}
+
 .btn{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
-    padding: 20px;
+    padding: 15px 85px;
     border-radius: 5px;
     background-color: #ff7a59;
     text-decoration: none;
+    margin-bottom: 15px;
 }
 
 .bnt-q{
     padding:30px;
-
 }
 
 .btn:hover {
@@ -141,6 +148,7 @@
 /* inizio jumbotron */
 #jumbotron {
     background-color: #fff2ee;
+    border-bottom: 2px solid #33475b;
 }
 
 #title{
@@ -156,9 +164,6 @@
 }
 
 #title p{
-    font-size: 17px;
-    line-height: 30px;
-    font-weight: 100;
     margin-bottom: 3em;
 }
 
@@ -168,3 +173,81 @@
     font-weight: 500;
 }
 /* fine jumbotron */
+
+/* inizio seconda sezione */
+#section-two{
+    padding: 100px 0;
+    background-color: #f5f8fa;
+}
+
+.box{
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 2px;
+}
+
+.box:hover{
+    transform: scale3d(1.01,1.01,1.01);
+}
+.box h3{
+    display: inline-block;
+    font-size: 22px;
+    padding-left: 5px;
+}
+.box p{
+    padding: 25px 0;
+    border-bottom: 2px solid #f5f8fa;
+    margin-bottom: 25px;
+}
+.box img{
+        vertical-align: middle;
+        transform: translate(0, -20%);
+}
+
+.box ul{
+    list-style: none;
+    margin: 25px 10px 50px 10px;
+}
+
+.box  i{
+    color:#ff7a59;
+}
+
+.line-one-left{
+    float: left;
+    width: 33.3%;
+}
+
+.line-one-left h2 {
+    margin-bottom: 1em;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.line-one-right{
+    float: right;
+    width: calc(66.6% - 20px);
+    margin-bottom: 20px;
+}
+
+.line-one-right h3{
+    font-size: 27px;
+}
+
+.line-one-right ul{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.line-one-right li{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.line-one-right a{
+    padding: 15px 80px;
+}
+.line-two-left{
+    float: left;
+    width: calc((100% - 40px) / 3);
+}
