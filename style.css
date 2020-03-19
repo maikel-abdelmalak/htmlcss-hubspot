@@ -5,6 +5,7 @@
 }
 
 .container{
+    position: relative;
     width: 1080px;
     margin: auto;
     /* border-top: 2px solid black;
@@ -189,16 +190,19 @@
 .box:hover{
     transform: scale3d(1.01,1.01,1.01);
 }
+
 .box h3{
     display: inline-block;
     font-size: 22px;
     padding-left: 5px;
 }
+
 .box p{
     padding: 25px 0;
     border-bottom: 2px solid #f5f8fa;
     margin-bottom: 25px;
 }
+
 .box img{
         vertical-align: middle;
         transform: translate(0, -20%);
@@ -213,9 +217,19 @@
     color:#ff7a59;
 }
 
+.box .btn-c{
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.line-one{
+    margin-bottom: 20px;
+}
+
 .line-one-left{
     float: left;
-    width: 33.3%;
+    width: calc((100% - 40px) / 3);
+    margin-right: 20px;
 }
 
 .line-one-left h2 {
@@ -225,9 +239,8 @@
 }
 
 .line-one-right{
-    float: right;
-    width: calc(66.6% - 20px);
-    margin-bottom: 20px;
+    float: left;
+    width:calc((((100% - 40px) / 3) * 2) + 20px);
 }
 
 .line-one-right h3{
@@ -247,7 +260,43 @@
 .line-one-right a{
     padding: 15px 80px;
 }
+
 .line-two-left{
     float: left;
     width: calc((100% - 40px) / 3);
+}
+
+.line-two-center{
+    float: left;
+    width: calc((100% - 40px) / 3);
+    margin-left: 20px;
+}
+
+.line-two-right{
+    float: left;
+    width: calc((100% - 40px) / 3);
+    margin-left: 20px;
+}
+/* fine seconda sezione */
+
+/* inizio terza sezione */
+#section-three{
+    height: 600px;
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+
+
+#chat{
+    font-size: 30px;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #33475b;
+    position: fixed;
+    right: 15px;
+    bottom:15px;
+}
+
+#chat:hover{
+    transform: scale3d(1.2,1.2,1.2);
 }
