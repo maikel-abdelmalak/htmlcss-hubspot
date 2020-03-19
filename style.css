@@ -110,6 +110,11 @@
     padding: 10px;
     font-size: 14px;
 }
+
+.header-top-right a:first-of-type:hover{
+    background-color: rgba(255, 122, 89, 0.2);
+}
+
 /* fine header top */
 
 /* inizio header bottom */
