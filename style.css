@@ -153,9 +153,10 @@
 
 /* inizio jumbotron */
 #jumbotron {
-    background-image: url(img/jumbotron-background.png);
-    background-color: #fff2ee;
-    border-bottom: 2px solid #33475b;
+    background-image: url(img/jumbotron-b.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 #title{
@@ -216,7 +217,7 @@
 
 .box ul{
     list-style: none;
-    margin: 25px 10px 50px 10px;
+    margin: 25px 10px 50px 0px;
 }
 
 .box  i{
@@ -316,12 +317,13 @@
 
 .section-three-bottom {
     width: 100%;
-    padding-bottom:70px;
+    padding-bottom:100px;
 }
 
 .mini-box{
     float: left;
     width: 25%;
+    height: 190px;
     text-align: center;
     color: #fff;
     padding:30px;
@@ -348,26 +350,99 @@
     font-weight: 500;
 }
 
-
-
-#one{
+.mini-box-top .mini-box{
     border-bottom: 1px solid #fff;
     border-right: 1px solid #fff;
 }
-#three{
-    border-bottom: 1px solid #fff;
-    border-left:  1px solid #fff;
-    border-right:  1px solid #fff;
+
+.mini-box-top .mini-box:last-child{
+    border-right: none;
 }
-#six{
-    border-top: 1px solid #fff;
-    border-left:  1px solid #fff;
-    border-right:  1px solid #fff;
+
+.mini-box-bottom .mini-box{
+    border-right: 1px solid #fff;
 }
-#eight{
-    border-top:  1px solid #fff;
-    border-left:  1px solid #fff;
+
+.mini-box-bottom .mini-box:last-child{
+    border-right: none;
 }
+/* fine terza sezione */
+
+/* inizio quarta sezione */
+#section-four{
+    padding: 100px 0 150px;
+}
+
+.section-four-top-left{
+    float: left;
+    width: 35%;
+}
+
+.section-four-top-left p:first-child{
+    font-size: 45px;
+    font-weight: 800;
+    padding-bottom: 0.5em;
+}
+
+.section-four-top-left p:last-child{
+    font-size: 22px;
+    font-weight: 100px;
+    line-height: 1.5em;
+}
+
+.section-four-top-right{
+    float: right;
+    width: 55%;
+}
+
+.ifour{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    height: 100px;
+
+}
+.ifour img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.section-four-bottom-left{
+    float: left;
+    width: 45%;
+}
+
+#title-four{
+    width: 100%;
+    padding-top: 150px;
+}
+
+#title-four h1{
+    font-size: 30px;
+    font-weight:750;
+    margin-bottom: 1em;
+}
+
+#title-four p{
+    margin-bottom: 4em;
+}
+
+#smalldue{
+    margin-top: 70px;
+    font-weight: 500;
+}
+
+.section-four-bottom-right{
+    float: right;
+    width: 350px;
+}
+
+.section-four-bottom-right img{
+    width: 350px;
+    margin-top: 100px;
+}
+/* fine quarta sezione */
+
 
 #chat{
     font-size: 30px;
