@@ -483,6 +483,20 @@ footer{
     padding: 10px 0;
 }
 
+#sotto-menu{
+    padding-top: 15px;
+    margin-bottom: 0;
+    display: none;
+}
+#sotto-menu li:last-child{
+    padding-bottom: 0;
+}
+
+#last:hover #sotto-menu{
+     display: block;
+}
+
+
 #fbtn a{
     padding-left: 10px;
     padding-right: 10px;
@@ -557,16 +571,20 @@ footer{
 
 
 #chat{
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
-    padding: 15px;
+    padding: 20px;
     border-radius: 50%;
     background-color: #33475b;
     position: fixed;
-    right: 15px;
-    bottom:15px;
+    right: 20px;
+    bottom:20px;
 }
 
 #chat:hover{
-    transform: scale3d(1.2,1.2,1.2);
+    transform: scale3d(1.05,1.05,1.05);
+    box-shadow: 5px  5px 5px lightgrey,
+               -5px -5px 5px lightgrey,
+                5px -5px 5px lightgrey,
+               -5px  5px 5px lightgrey;
 }
