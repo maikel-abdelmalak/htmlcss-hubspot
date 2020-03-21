@@ -126,13 +126,14 @@
 .header-bottom-left{
     margin-top: 27.5px;
     float: left;
-    width: 50%;
+    width: 40%;
 }
 
 .header-bottom-right{
     float: left;
-    width: 50%;
+    width: 60%;
     margin-top: 33.3px;
+    text-align: right;
 }
 
 .nav li{
@@ -154,11 +155,11 @@
  }
 
  .menu{
-     width: 650px;
+     width: 800px;
      background-color: #fff;
      position: absolute;
-     top: 25px;
-     transform: translateX(-50%);
+     top: 35px;
+     transform: translateX(-65%);
      display: none;
      border: 1px solid #7c98b6;
      z-index: 999;
@@ -166,35 +167,89 @@
 
 .lineam{
     border-bottom: 1px solid #7c98b6;
-    margin:0 25px;
+    margin:0 20px;
 
 }
 .menu-box:hover {
-    background-color: lightblue;
+    background-color: #e5f5f8;
     border-radius: 5px;
 }
  .title-menu{
-     font-size: 20px;
+     font-size: 18px;
      font-weight: 600;
+     margin-bottom: 1em;
  }
 
 .nav li:hover .menu{
     display: inherit;
 }
 
-.prima-linea-software{
-    text-align: center;
-    margin:25px;
+.prima-linea{
+    margin:20px;
 }
 
 .menu-box{
     float: left;
     width: 33.33%;
-    padding:25px;
+    padding:20px;
+    padding-right: 0;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
+.text-menu{
+    font-size: 14px;
+}
 .intero{
     width: 100%;
+    text-align: center;
+}
+
+.menu .lineam:last-child{
+    margin-top: 20px;
+    border-bottom: none;
+}
+
+#menu-res{
+    transform: translateX(-75%);
+}
+
+#menu-part{
+    transform: translateX(-85%);
+    width: 650px;
+
+}
+
+#menu-part .menu-box{
+    width: 50%;
+    margin-bottom: 0;
+}
+
+#menu-about{
+    transform: translateX(-95%);
+    width: 600px;
+}
+
+#menu-about .menu-box{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+#menu-about .title-menu{
+    padding-left: 10px;
+}
+#menu-about li{
+    display: block;
+    padding: 15px;
+}
+#menu-about li span{
+    padding: 10px;
+    padding-left: 0;
+}
+#menu-about li:hover{
+    background-color: #e5f5f8;
+}
+#menu-about .menu-box:hover {
+    background-color: #fff;
 }
 /* fine header bottom */
 /* fine header  */
