@@ -138,6 +138,8 @@
 .nav li{
     display: inline-block;
     padding-right: 15px;
+    position: relative;
+    padding-bottom: 33.3px;
 }
 
  .nav li a{
@@ -150,6 +152,50 @@
  .nav li a i{
      color: #7c98b6;
  }
+
+ .menu{
+     width: 650px;
+     background-color: #fff;
+     position: absolute;
+     top: 25px;
+     transform: translateX(-50%);
+     display: none;
+     border: 1px solid #7c98b6;
+     z-index: 999;
+ }
+
+.lineam{
+    border-bottom: 1px solid #7c98b6;
+    margin:0 25px;
+
+}
+.menu-box:hover {
+    background-color: lightblue;
+    border-radius: 5px;
+}
+ .title-menu{
+     font-size: 20px;
+     font-weight: 600;
+ }
+
+.nav li:hover .menu{
+    display: inherit;
+}
+
+.prima-linea-software{
+    text-align: center;
+    margin:25px;
+}
+
+.menu-box{
+    float: left;
+    width: 33.33%;
+    padding:25px;
+}
+
+.intero{
+    width: 100%;
+}
 /* fine header bottom */
 /* fine header  */
 
